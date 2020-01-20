@@ -1119,7 +1119,7 @@ var _initialiseProps$1 = function _initialiseProps() {
   };
 
   this.handleBackdropClick = function (event) {
-    if (!event.target.classList.contains(className('view')) || !_this2.props.closeOnBackdropClick) {
+    if (!event.target.classList.contains(className('view-wrapper')) || !_this2.props.closeOnBackdropClick) {
       return;
     }
 

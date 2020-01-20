@@ -107,7 +107,7 @@ class Modal extends Component<Props, State> {
   };
   handleBackdropClick = (event: MouseEvent) => {
     if (
-      !event.target.classList.contains(className('view')) ||
+      !event.target.classList.contains(className('view-wrapper')) ||
       !this.props.closeOnBackdropClick
     ) {
       return;
